@@ -1,6 +1,10 @@
 # Mini project to make REST API of a course selling website
 
-## Tech Stack 🚀💻
+## Deployed Live on 🚀:
+### Frontend : Vercel -> https://week-3-todo-app-mern-atmieroar-ekansh-kandulnas-projects.vercel.app/
+### Backend : Render -> https://week-3-todo-app-mern.onrender.com/todos
+
+## Tech Stack 💻
 ### Backend -> Express, jwt 
 ### Database -> MongoDB
 ### Frontend -> React, Tailwind
