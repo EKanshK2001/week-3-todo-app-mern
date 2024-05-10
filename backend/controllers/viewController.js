@@ -3,7 +3,7 @@ const { Todo } = require("../db")
 const viewController = async (req, res) => {
     try {
         const todos = await Todo.find({});
-        res.json(todos);
+        res.json({todos: todos});
 
     } catch (error) {
         res.status(500).json({

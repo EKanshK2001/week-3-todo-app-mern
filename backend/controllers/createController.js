@@ -12,6 +12,7 @@ const createController = async (req, res) => {
         res.status(400).json({
             msg: "incorrect inputs"
         })
+        return;
     }
 
     //adding to mongoDB
