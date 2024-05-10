@@ -3,32 +3,25 @@
 ## Tech Stack 🚀💻
 ### Backend -> Express, jwt 
 ### Database -> MongoDB
-### Frontend -> React
+### Frontend -> React, Tailwind
 
 
 ## Tests Done (POSTMAN and FRONTEND): ✅ 👍
-<!-- - working signup feature 
-- working signin feature
+- successfully creates new todos
+- open routes/no authentication
+- mark as done capability
+- all synchronous backend with frontend
 
-- authenticated admin,
-  - successfully creates new courses
-  - successfully views their own courses
 
-- authenticated user,
-  - successfully purchases new courses
-  - successfully views their purchased courses -->
+
+## Bugs : ❌
+- no bugs recorded for the required functioning
 
 
 ## Things learnt/covered : 🎊
 - allows anyone to create a todo
 - allows anyone to see their existing todos
 - allows anyone to mark a todo as done
-
-
-
-## Bugs : ❌
-<!-- - no bugs recorded for the required functioning -->
-
 
 
 ## Run : 🚀
