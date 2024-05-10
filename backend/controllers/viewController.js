@@ -1,7 +1,6 @@
-import { Todo } from "../db"
+const { Todo } = require("../db")
 
-
-export const viewController = async (req, res) => {
+const viewController = async (req, res) => {
     try {
         const todos = await Todo.find({});
         res.json(todos);
@@ -11,4 +10,8 @@ export const viewController = async (req, res) => {
             msg: "there was error connecting to the db"
         })
     }
+}
+
+module.exports = {
+    viewController
 }

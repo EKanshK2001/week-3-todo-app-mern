@@ -1,6 +1,6 @@
-import { createController } from '../controllers/createController';
-import { madController } from '../controllers/madController';
-import { viewController } from '../controllers/viewController';
+const { createController } = require('../controllers/createController');
+const { madController } = require('../controllers/madController');
+const { viewController } = require('../controllers/viewController');
 
 const { Router } = require('express')
 
@@ -10,4 +10,6 @@ todoRouter.get('/', viewController)
 todoRouter.post('/create', createController)
 todoRouter.put('/markasdone', madController)
 
-export default todoRouter;
+module.exports = {
+    todoRouter
+};

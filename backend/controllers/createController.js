@@ -1,8 +1,7 @@
-import { Todo } from '../db';
-import { createTodo } from '../types';
+const { Todo } = require("../db");
+const { createTodo } = require("../types");
 
-export const createController = async (req, res) => {
-    
+const createController = async (req, res) => {
     //get todo body
     const todo = req.body;
 
@@ -31,4 +30,8 @@ export const createController = async (req, res) => {
         })
     }
     
+}
+
+module.exports = {
+    createController
 }

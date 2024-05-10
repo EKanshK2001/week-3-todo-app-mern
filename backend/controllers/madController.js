@@ -1,8 +1,7 @@
-import { Todo } from "../db";
-import { updateTodo } from "../types";
+const { Todo } = require("../db");
+const { updateTodo } = require("../types");
 
-
-export const madController = async (req, res) => {
+const madController = async (req, res) => {
     const todoId = req.body;
 
     const parsedTodoId = updateTodo.safeParse(todoId);
@@ -14,7 +13,7 @@ export const madController = async (req, res) => {
     }
 
     try {
-        await Todo.findByIdAndUpdate(todoId, {
+        await Todo.findByIdAndUpdate(todoId.id, {
             completed: true
         })
 
@@ -27,4 +26,8 @@ export const madController = async (req, res) => {
             msg: "there was error connecting to the db"
         })
     }
+}
+
+module.exports = {
+    madController
 }
