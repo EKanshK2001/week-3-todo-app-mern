@@ -4,7 +4,7 @@ import axios from "axios";
 export const Todo = ({ title, description, completed, id }) => {
   const handleClick = () => {
     console.log(id);
-    axios.put("http://localhost:3000/todos/markasdone", { id: id }).then(() => {
+    axios.put("https://week-3-todo-app-mern.onrender.com/todos/markasdone", { id: id }).then(() => {
       alert("todo marked as done!");
     });
   };

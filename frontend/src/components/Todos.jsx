@@ -6,7 +6,7 @@ export const Todos = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/todos/").then((response) => {
+    axios.get("https://week-3-todo-app-mern.onrender.com/todos").then((response) => {
       setTodos(response.data.todos);
     });
   }, [todos]);

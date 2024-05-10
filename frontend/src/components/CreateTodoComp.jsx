@@ -5,7 +5,7 @@ import axios from "axios";
 export const CreateTodo = () => {
   const handleSubmit = () => {
     axios
-      .post("http://localhost:3000/todos/create", todoBody)
+      .post("https://week-3-todo-app-mern.onrender.com/todos/create", todoBody)
       .then(() => {
         alert("todo added!");
       });
