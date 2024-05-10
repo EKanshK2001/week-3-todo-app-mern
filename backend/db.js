@@ -11,8 +11,8 @@ const todoSchema = mongoose.Schema({
     completed: Boolean,
 })
 
-const todo = mongoose.model('todos', todoSchema);
+const Todo = mongoose.model(todoSchema);
 
 module.exports = {
-    todo
+    Todo
 }
