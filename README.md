@@ -1,4 +1,4 @@
-# Mini project to make REST API of a course selling website
+# Mini project to make a Fullstack TODO APP 
 
 ## Deployed Live on 🚀:
 ### Frontend : Vercel -> https://week-3-todo-app-mern.vercel.app/
