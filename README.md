@@ -5,7 +5,7 @@
 ### Backend : Render -> https://week-3-todo-app-mern.onrender.com/todos
 
 ## Tech Stack 💻
-### Backend -> Express, jwt 
+### Backend -> Express
 ### Database -> MongoDB
 ### Frontend -> React, Tailwind
 
