@@ -3,7 +3,7 @@ import { CreateTodo } from "./components/CreateTodoComp";
 
 function App() {
   return (
-    <div className=" flex flex-col gap-5 p-20 place-items-center">
+    <div className="flex flex-col gap-5 place-items-center">
       <CreateTodo />
       <Todos />
     </div>
