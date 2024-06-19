@@ -14,6 +14,7 @@
 - successfully creates new todos
 - open routes/no authentication
 - mark as done capability
+- responsiveness test
 - all synchronous backend with frontend
 
 

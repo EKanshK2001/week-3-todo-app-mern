@@ -23,16 +23,18 @@ export const Todos = () => {
   }, [todos]);
 
   return (
-    <div className="w-full md:grid md:grid-cols-2 flex flex-col justify-center place-items-center text-white gap-10 p-14">
-      {todos.map((todo) => (
-        <Todo
-          key={todo._id}
-          id={todo._id}
-          title={todo.title}
-          description={todo.description}
-          completed={todo.completed}
-        />
-      ))}
-    </div>
+      loading
+      ? <div className="text-white">fetching todos...(can take a minute)</div>
+      : <div className="w-full md:grid md:grid-cols-2 flex flex-col justify-center place-items-center text-white gap-10 p-14">
+          {todos.map((todo) => (
+            <Todo
+              key={todo._id}
+              id={todo._id}
+              title={todo.title}
+              description={todo.description}
+              completed={todo.completed}
+            />
+          ))}
+        </div>
   );
 };

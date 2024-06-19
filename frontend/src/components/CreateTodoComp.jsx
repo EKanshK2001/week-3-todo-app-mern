@@ -1,11 +1,9 @@
 import { useRef, useState } from "react";
-import { Button } from "./ButtonComp";
 import axios from "axios";
 
 export const CreateTodo = () => {
-
-  const titleRef = useRef(null)
-  const descriptionRef = useRef(null)
+  const titleRef = useRef(null);
+  const descriptionRef = useRef(null);
 
   const handleSubmit = () => {
     axios
@@ -50,11 +48,12 @@ export const CreateTodo = () => {
         placeholder="description"
         onChange={handleChange}
       />
-      <Button
-        className=" md:w-1/6 w-full"
-        text="create todo"
+      <button
+        className="border px-5 py-3 md:w-1/6 w-full bg-black text-white"
         onClick={handleSubmit}
-      />
+      >
+        Create Todo
+      </button>
     </div>
   );
 };
