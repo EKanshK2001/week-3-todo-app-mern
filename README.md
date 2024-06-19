@@ -28,6 +28,24 @@
 - allows anyone to see their existing todos
 - allows anyone to mark a todo as done
 
+## Some screenshots: 📷
+
+1. Home Page
+
+![Homepage](/frontend/public/home.png)
+
+2. Home Page while fetching todos
+
+![Homepage-fetching](/frontend/public/home-fetch.png)
+
+3. Homepage todo added response
+
+![todo-added-response](/frontend/public/added-response.png)
+
+4. Home Page on a Phone 
+
+![Homepage-responsive](/frontend/public/home-responsive.png)
+
 
 ## Run : 🚀
 <!-- - Create .env in root folder and set the environment variables JWT_SECRET and MONGO_URL
